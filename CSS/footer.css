@@ -16,6 +16,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(228, 228, 228);
+    border-top: solid black 1px;
   }
 
 
@@ -45,4 +46,16 @@
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
+  }
+
+  .centre-section-footer button {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+
+  .centre-section-footer button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1s;
   }
