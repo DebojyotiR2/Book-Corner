@@ -1,18 +1,49 @@
-.review-cards, .review-form {
+.review-form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
-    height: 40vh;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
 }
 
+.review-form p {
+    padding: 10px;
+}
+
+.review-form textarea {
+    resize: none;
+
+}
+
+.review-form input, .review-form textarea {
+    width: 80vh;
+}
+
+
 .img-reviewer {
+    border-radius: 30%;
     width: 25vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .reviewer-name, .reviewer-review {
     width: 50vh;
+    text-align: center;
+    width: 35vh;
+    font-family: Roboto, Arial;
+    padding: 5px;
+    
 }
+
+.reviewer-name {
+    font-weight: bolder;
+}
+
+
 
 .review-grid {
     display: flex;
@@ -23,5 +54,26 @@
 }
 
 .review-card {
+    padding: 15px;
+    border-radius: 30%;
+    border: black 1px dotted;
+    display: flex;
+    flex-direction: column;
     width: 50vh;
+    align-items: center;
+    background-color: lightyellow;
+}
+
+.submit {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.submit:hover {
+    width: 100px;
+    transition: 1s;
+    background-color: red;
+    color: white;
+    transition: 1s;
 }
