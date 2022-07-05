@@ -1,0 +1,58 @@
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Book-Wallpapers-HD-Free-Download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.intro-sub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.intro-sub img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.intro-title {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+.intro-subtitle {
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+.intro-button-best-seller {
+    margin: 10px;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.intro-button-best-seller:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

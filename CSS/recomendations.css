@@ -1,0 +1,25 @@
+.recomendations {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+
+.card-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
